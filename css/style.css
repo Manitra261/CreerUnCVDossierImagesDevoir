@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lato';
+}
+
+p, li, table, nav, article {
+    font-family: 'Raleway';
+}
+/* END Fonts*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    margin: auto;
+}
+
+
+/*START header*/
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #782221;
+    height: 465px;
+    width: auto;
+    margin: auto;
+    align-items: center;
+}
+
+header img {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 160px;
+    margin: 35px auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px white;
+    cursor: zoom-in;
+}
+
+h1, h2 {
+    color: white;
+    height: auto;
+    width: auto;
+    padding: 7px;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    width: 1160px;
+    height: 90px;
+    margin: auto;
+    padding-inline-start: 0%;
+    font-style: italic;
+    background-color: #2c1d27;
+    list-style: none;
+}
+nav ul li {
+    margin: 0px 30px;
+}
+
+nav ul a {
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+
+nav ul a:link {
+    color: white;
+}
+
+nav ul a:visited {
+    color: white;
+}
+
+nav ul a:focus {
+    color: white;
+}
+
+nav ul a:hover {
+    color: white;
+    border-bottom: 1px solid;
+}
+
+nav ul a:focus {
+    color: white;
+}
+
+/*End header*/
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 1160px;
+    align-items: stretch;
+    height: auto;
+    border-right: solid 1.5px black;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: #782221;
+    color: white;
+}
+
+.left-section h3 {
+    background-color: #dbc2a4;
+    color: black;
+    margin: 20px 50px 20px 0px;
+    text-indent: 10px;
+    padding: 5px;
+}
+
+.left-section p {
+    margin: 5px 50px 20px 20px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    padding: 0px 35px 0px 35px;
+}
+
+
+.right-section h3 {
+    background-color: #dbc2a4;
+    color: black;
+    text-indent: 5px;
+    margin: 20px 0px 20px 0px;
+    padding: 5px;
+    border-left: solid 8px #782221;
+}
+
+.right-section h4 {
+    padding: 5px 0px;
+    margin: 5px 0px;
+}
+
+.exp1:hover {
+    border-right: solid 8px #782221;
+}
+
+.exp2:hover {
+    border-right: solid 8px #782221;
+}
+
+.exp3:hover {
+    border-right: solid 8px #782221;
+}
+
+.edu1:hover {
+    border-right: solid 8px #782221;
+}
+
+.edu2:hover {
+    border-right: solid 8px #782221;
+}
+
+.edu3:hover {
+    border-right: solid 8px #782221;
+}
+
+.comp:hover {
+    border-right: solid 8px #782221;
+}
+
+/*START Footer*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    height: 125px;
+    background-color: #782221;
+    color: white;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+}
+
+div .social-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 20px;
+
+}
+
+
+.linkedin {
+    width: 40px;
+    padding: 15px;
+}
+
+.linkedin:hover {
+    opacity: 0.7;
+}
+
+.twitter {
+    width: 40px;
+    padding: 15px;
+}
+
+.twitter:hover {
+    opacity: 0.7;
+}
+
+.github {
+    width: 40px;
+    padding: 15px;
+}
+
+.github:hover {
+    opacity: 0.7;
+}
+
+
+.doc-version {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    font-size: small;
+    text-align: center;
+    padding: 0px 0px 25px 0px;
+}
+
+/*end footer*/
+
